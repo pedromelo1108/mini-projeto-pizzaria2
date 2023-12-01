@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+:root{
+    --MarromEscuro:#8B4513;
+    --Bege:#F5F5DC;
+    --VerdeOliva:#6B8E23;
+    --TerraCota:#E2725B;;
+    --MarromChocolate:#D2691E;
+    --CinzaArdosia:#708090;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: 'Playfair Display', serif;
+    background-color: beige;
+}
+
+#cabecalhoprincipal{
+    background-color: var(--VerdeOliva);
+    height: 300px;
+    width: 100%;
+
+
+}
+
+#cardapio{
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+nav.menu-lateral{
+    width:80px;
+    height: 100%;
+    background-color: var(--VerdeOliva);
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 var(--TerraCota);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.btn-expandir>i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 30px;
+}
+
+ul li.item-menu{
+    transition: .2s;
+}
+ul li.item-menu:hover{
+    background-color: var(--TerraCota);
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 30px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+section{
+    margin-left: 100px;
+    max-width: 300px;
+    max-width: 600px;
+    
+}
+
+#secaocardapio{
+    display: flex;
+    
+}
+
+#nossocardapio{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 50%;
+    padding: 0;
+    background-color: red;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#rodape{
+    columns: 2;
+}
+
+#redessociais{
+    margin: 10px;
+}
+
+#redessociais > ul > li > a > i {
+    margin: 10px;
+    gap: 10px;
+}
+
+#notificacoes{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+footer{
+    background-color: var(--VerdeOliva);
+    height: 200px;
+    font-weight:bolder;
+}
+
+footer > div{
+    margin-left: 100px;
+}
+
+footer > p {
+    margin-left: 100px;
+}
+
+footer > ul{
+    margin-left: 100px;
+    columns: 3;
+}
+
+footer > a{
+    margin: 10px;
+}
