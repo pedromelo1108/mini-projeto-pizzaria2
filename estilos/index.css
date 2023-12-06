@@ -123,6 +123,8 @@ section{
     
     padding: 0;
     background-color: red;
+    color: black;
+    font-weight: bolder;
 }
 
 img{
