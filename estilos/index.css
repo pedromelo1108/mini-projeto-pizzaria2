@@ -112,8 +112,6 @@ section{
 
 #secaocardapio{
     display: flex;
-    max-width: 400px;
-    min-width: 100px;
     
 }
 
