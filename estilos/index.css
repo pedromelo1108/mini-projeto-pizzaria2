@@ -30,6 +30,10 @@ body{
 
 }
 
+#navegacaolateral{
+    display: flex;
+}
+
 #logomarcapizza{
     width: 200px;
     height: 200px;
@@ -120,6 +124,8 @@ section{
     text-decoration: none;
     font-size: 25px;
     margin: auto;
+    border-radius: 10px;
+    width: 200px;
     
     padding: 0;
     background-color: red;
@@ -127,8 +133,14 @@ section{
     font-weight: bolder;
 }
 
+#frase{
+  margin: auto;  
+  display: flex;
+  justify-content: center;
+}
+
 img{
-    width: 80%;
+    width: 65%;
     margin: auto;
     margin-bottom: 40px;
     
@@ -152,7 +164,10 @@ img{
     margin: 10px;
     max-width: 100%;
     max-height: 100%;
-
+    border-width: 2px; 
+    border-style: solid;
+    padding: 10px;
+    background-color: white;
 }
 
 footer{
